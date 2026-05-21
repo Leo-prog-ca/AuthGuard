@@ -45,7 +45,6 @@ The goal is not to replace a SIEM or professional monitoring platform. The proje
 AuthGuard/
 ├── main.py
 ├── authguard/
-│   ├── __init__.py
 │   ├── auth_parser.py
 │   ├── cli.py
 │   ├── models.py
@@ -57,7 +56,6 @@ AuthGuard/
 ├── screenshots/
 │   └── authguard-output.png
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
