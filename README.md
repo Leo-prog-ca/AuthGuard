@@ -79,24 +79,6 @@ Or analyze a specific real log file:
 sudo python3 main.py --file /var/log/auth.log
 ```
 
-## Example output
-
-```text
-AuthGuard: Linux Security Snapshot
-============================================================
-Sources:
-- journalctl --since 7 days ago
-------------------------------------------------------------
-Log lines analyzed: 6900
-Authentication events parsed: 1
-Alerts: 0
-Successful login records: 0
-Failed login records: 0
-Active remote connections: 7
-Listening sockets: 6
-============================================================
-```
-
 ## Output files
 
 After running, AuthGuard creates two local files:
@@ -105,8 +87,6 @@ After running, AuthGuard creates two local files:
 alerts.csv
 security_report.md
 ```
-
-These files are not meant to be uploaded to GitHub, because they may contain real IP addresses, usernames, process names, and system information.
 
 ## Security note
 
